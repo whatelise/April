@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap");
+body {
+  background-color: #ed6b34;
+  font-family: "Jaldi", sans-serif;
+  margin: 4em 8em;
+}
+.hidden {
+  display: none;
+}
+input,
+textarea {
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: thistle;
+  border-radius: 20px;
+}
+form {
+  border: 0px;
+  padding: 20px;
+  width: 350px;
+  background-color: royalblue;
+  border-radius: 30px;
+  overflow: hidden;
+}
+label {
+  font-weight: 700;
+  font-size: 2em;
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 12px 22px;
+  text-decoration: none;
+  margin: 20px 2px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.8em;
+  height: 2em;
+}
+h1 {
+  font-size: 3.8em;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  margin: 20px 0 -8px 0;
+}
+h3 {
+  font-size: 1em;
+  margin: 0;
+}
+h4 {
+  font-size: 2em;
+  margin: 0;
+}
+.readmore {
+  color: #007cba;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+button a {
+  color: #fff200;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.move {
+  animation-name: moveright;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+@keyframes moveright {
+  0% {
+    transform: translateX(0vw);
+  }
+
+  50% {
+    transform: translateX(70%);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+button {
+  border: transparent;
+  background-color: transparent;
+}
+
+.articlepage {
+  background-color: #fff200;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.comments {
+  background-color: royalblue;
+  color: greenyellow;
+  padding: 10px;
+}
+
+.commentList {
+  color: #fff200;
+}
+.comments p {
+  margin-bottom: 0;
+}
+
+.comments h3 {
+  margin-bottom: 30px;
+}

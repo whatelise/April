@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit a Post</title>
+    <link rel="stylesheet" href="post.css" />
+  </head>
+  <body>
+    <a href="index.html">Back</a>
+    <p class="hidden">Thank you for sumbitting a post.</p>
+    <form>
+      <label
+        >Title
+        <input type="text" name="title" required />
+      </label>
+      <label
+        >Username
+        <input type="text" name="username" required />
+      </label>
+      <label
+        >Post Suggestion<textarea name="content" required></textarea>
+      </label>
+      <input type="submit" value="Submit Post" />
+    </form>
+    <script src="post-suggestion.js"></script>
+  </body>
+</html>
